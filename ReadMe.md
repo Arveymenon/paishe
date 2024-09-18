@@ -21,11 +21,16 @@
 ```
 
 ### Packages to be installed:
+```
+go get <package>
+```
 github.com/gin-gonic/gin v1.10.0  
 github.com/spf13/viper v1.19.0  
 github.com/stretchr/testify v1.9.0  
 gorm.io/gorm v1.25.12  
 
+### .env
+Copy `.env.example` to a new file named `.env`
 
 Run with:  
 go run ./cmd/paishe
