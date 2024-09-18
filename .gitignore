@@ -1,0 +1,55 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+
+# Output of build process
+/bin/
+/build/
+/out/
+*.o
+*.a
+*.lo
+*.la
+*.lai
+*.loT
+
+# Go modules
+/go/pkg/
+/go/bin/
+vendor/
+
+# If you're using `go mod vendor`, uncomment this line:
+# /vendor/
+
+# Go test binary
+*.test
+
+# Go coverage
+*.cover
+coverage.out
+
+# Editor specific (optional, depending on the IDE you use)
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*~
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.pid
+
+# Configuration files (e.g., IDE or OS-specific)
+*.DS_Store
+*.env
+
+# Dependency directories
+/go/pkg/mod/
+/go/pkg/sumdb/
+/.goenv/
