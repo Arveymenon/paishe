@@ -4,7 +4,7 @@
 ```
 /paishe
 ├── cmd/                # Entry points for your application (main package)
-│   └── github.com/Arveymenon/paishe
+│   └── paishe
 │       └── main.go     # The main function, starting point of the API
 ├── internal/           # Internal packages (for app logic that shouldn't be exposed)
 │   ├── config/         # Configuration management (env, config files)

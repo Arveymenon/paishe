@@ -46,8 +46,8 @@ coverage.out
 *.pid
 
 # Configuration files (e.g., IDE or OS-specific)
-*.DS_Store
-*.env
+.DS_Store
+.env
 
 # Dependency directories
 /go/pkg/mod/
