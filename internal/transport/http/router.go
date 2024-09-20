@@ -1,15 +1,16 @@
 package http
 
 import (
-    "github.com/gin-gonic/gin"
-    "github.com/Arveymenon/paishe/internal/services"
+	service "github.com/Arveymenon/paishe/internal/services"
+	"github.com/gin-gonic/gin"
+	"gorm.io/gorm"
 )
 
-func SetupRouter() *gin.Engine {
-    router := gin.Default()
-    userService := service.NewUserService()
-    
-    NewUserHandler(router, userService)
-    
-    return router
+func SetupRouter(db *gorm.DB) *gin.Engine {
+	router := gin.Default()
+	userService := service.NewUserService(db)
+
+	NewUserHandler(router, userService)
+
+	return router
 }
