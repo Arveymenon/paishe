@@ -46,7 +46,7 @@ coverage.out
 *.pid
 
 # Configuration files (e.g., IDE or OS-specific)
-.DS_Store
+*.DS_Store
 .env
 
 # Dependency directories
